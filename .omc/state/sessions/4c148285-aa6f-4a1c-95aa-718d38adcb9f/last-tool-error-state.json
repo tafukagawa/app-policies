@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"curl -sIL --max-time 10 http://fkglab.com 2>&1 | grep -iE '^(HTTP|server|location)'; echo \\\"rc=$?\\\"; curl -sI --max-time 10 https://fkglab.com 2>&1 | head -3; curl -s -o /dev/null -w '%{ht...",
+  "error": "Exit code 60\nHTTP/1.1 403 Forbidden\r\nServer: nginx\r\nrc=0\n000 SSL: no alternative certificate subject name matches target host name 'fkglab.com'",
+  "timestamp": "2026-11-07T09:27:36.819Z",
+  "retry_count": 1
+}
